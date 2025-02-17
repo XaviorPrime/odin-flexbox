@@ -11,7 +11,7 @@ html,body {
 
 h1 {
     font-weight: bold;
-    padding: 20px 0;
+    margin: 20px 0;
 }
 
 .container {
@@ -23,7 +23,7 @@ h1 {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 0 40px;
     background-color: #1F2937;
     align-items: center;
 }
@@ -48,7 +48,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 40px 100px;
     background-color: #1F2937;
     color: aliceblue;
 }
@@ -67,11 +67,6 @@ a {
     border: 2px solid black;
 }
 
-.footer {
-    margin-top: auto;
-    padding: 40px 0;
-}
-
 button {
     background-color: #3882F6;
     color: white;
@@ -80,6 +75,10 @@ button {
     border-radius: 14px;
     border: none;
     margin: 12px 0;
+}
+
+.information {
+    padding-bottom: 80px;
 }
 
 .information-content {
@@ -99,8 +98,34 @@ button {
 }
 
 .cta {
-    text-align: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 500px;
+    margin: 10px auto;
 }
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-container p {
+    font-size: smaller;
+}
+
+.cta button {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 4px;
+}
+
 .footer {
     text-align: center;
+    margin-top: auto;
+    padding: 20px 0;
 }
